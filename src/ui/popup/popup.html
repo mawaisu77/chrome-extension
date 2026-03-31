@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>EdPlan Sync</title>
+    <style>
+      body { font-family: sans-serif; min-width: 320px; margin: 12px; }
+      h1 { font-size: 16px; margin: 0 0 8px; }
+      .status { font-size: 13px; padding: 8px; border-radius: 6px; background: #f3f4f6; }
+      .muted { color: #555; font-size: 12px; margin-top: 10px; }
+      button { margin-top: 10px; width: 100%; padding: 8px; }
+    </style>
+  </head>
+  <body>
+    <h1>EdPlan Sync Status</h1>
+    <div id="status" class="status">Idle</div>
+    <button id="debugToggle">Toggle Debug Mode</button>
+    <div class="muted">No credentials are stored by this extension.</div>
+    <script type="module" src="./popup.js"></script>
+  </body>
+</html>

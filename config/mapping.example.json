@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "fieldMappings": [
+    {
+      "sourceField": "firstName",
+      "targetSelectors": ["#firstName", "input[name='firstName']"],
+      "required": true,
+      "type": "text",
+      "transform": "trim"
+    },
+    {
+      "sourceField": "lastName",
+      "targetSelectors": ["#lastName", "input[name='lastName']"],
+      "required": true,
+      "type": "text",
+      "transform": "trim"
+    }
+  ]
+}
